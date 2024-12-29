@@ -19,15 +19,15 @@ const Experience = () => {
     },
   ]
   return (
-<div className="w-full linear_darkPink_to_lightPink -mt-1" id='Experience'>
-      <h2 className="font-bold text-4xl text-white pt-10 text-center">
+<div className="w-full -mt-1 from_darkPink_to_lightPink" id='Experience'>
+      <h2 className="pt-10 text-4xl font-bold text-center text-white">
           Experience
       </h2>
-      <div className="container grid grid-cols-1 py-10 gap-6 items-start">
+      <div className="container grid items-start grid-cols-1 gap-6 py-10">
       {experiences.map((experience, index) => (
         <div key={index} className="flex flex-col gap-5">
-            <p className='text-bgColor font-semibold text-2xl md:text-xl sm:text-lg'>{experience.company}-{experience.position}</p>
-            <ul className='text-lightGray font-semibold text-lg md:text-base sm:text-sm list-disc leading-7 ml-10'>
+            <p className='text-2xl font-semibold text-bgColor md:text-xl sm:text-lg'>{experience.company}-{experience.position}</p>
+            <ul className='ml-10 text-lg font-semibold leading-7 list-disc text-lightGray md:text-base sm:text-sm'>
                 {experience.responsibilities.map((responsibility, index) => (
                     <li key={index}>{responsibility}</li>
                 ))}

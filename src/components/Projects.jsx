@@ -4,7 +4,7 @@ import CardProject from "./CardProject";
 const Projects = () => {
   const projects = [
     {
-      image: "asila_tourism.png",
+      image: "asila-cover.png",
       title: "ASILA Tourism Website",
       description:
         "A professional tourism website with a clean and responsive design, built to showcase various travel destinations and services.",
@@ -90,16 +90,17 @@ const Projects = () => {
       <h2 className="pt-10 text-4xl font-bold text-center text-white">
         My Projects
       </h2>
-      <div className="container grid items-start grid-cols-1 gap-10 py-10 projects_ md:grid-cols-3 sm:grid-cols-2 place-items-center">
+      <div className="container grid items-start grid-cols-1 gap-10 py-10 place-items-center projects_ md:grid-cols-3 sm:grid-cols-2 ">
         {projects.map((project, index) => (
-          <CardProject
-            key={index}
-            image={project.image}
-            title={project.title}
-            description={project.description}
-            repoLink={project.repoLink}
-            demoLink={project.demoLink}
-          />
+            <div key={index} className="relative group">
+              <CardProject
+                image={project.image}
+                title={project.title}
+                description={project.description}
+                repoLink={project.repoLink}
+                demoLink={project.demoLink}
+              />
+            </div>
         ))}
       </div>
     </div>

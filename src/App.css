@@ -15,14 +15,14 @@ html{
     max-height: 500px;
     filter: drop-shadow(0px 15px 20px rgba(76, 75, 75, 0.25));
 }
-.linear_darkPink_to_lightPink{
+.from_darkPink_to_lightPink{
     background: linear-gradient(180deg, #450920 0%, #FFA5AB 100%);
 }
-.linear_lightPink_to_darkPink{
+.from_lightPink_to_darkPink{
     background: linear-gradient(180deg,  #FFA5AB 0%,#450920 100%);
 }
 
-.linear_darkPink_to_darkGray{
+.from_darkPink_to_darkGray{
     background: linear-gradient(180deg,  #450920 0%,#1A1A2E 100%);
 }
 .ui_image{
@@ -40,3 +40,5 @@ html{
 .swiper-pagination-bullet-active{
     background-color: #A53860 !important;
 }
+
+  

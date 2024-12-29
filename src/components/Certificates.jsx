@@ -3,8 +3,8 @@ import CardsSlider from './CardsSlider'
 
 const Certificates = () => {
   return (
-    <div className='linear_darkPink_to_darkGray w-full -mt-1' id='Certificates'>
-        <h2 className="font-bold text-4xl text-white pt-10 text-center ">
+    <div className='w-full -mt-1 from_darkPink_to_darkGray' id='Certificates'>
+        <h2 className="pt-10 text-4xl font-bold text-center text-white ">
             Certificates
         </h2>
         <div className='py-10'>
