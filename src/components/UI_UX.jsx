@@ -18,9 +18,9 @@ const UI_UX = () => {
     ];
 
     return (
-        <div className="linear_lightPink_to_darkPink py-10 px-4 w-full -mt-1" id='UI&UX'>
+        <div className="w-full px-4 py-10 -mt-1 linear_lightPink_to_darkPink" id='UI&UX'>
             <div className='container'>
-            <h2 className="font-bold text-4xl text-white text-center mb-10">UI & UX</h2>
+            <h2 className="mb-10 text-4xl font-bold text-center text-white">UI & UX</h2>
             <div className="flex flex-col items-start gap-8">
                 {projects.map((project, index) => (
                     <div
@@ -44,9 +44,9 @@ const UI_UX = () => {
                             View Full Project on Figma
                         </a>
                         <img
-                            src={`/images/${project.image}`}
+                            src={`images/${project.image}`}
                             alt="project cover"
-                            className="w-full h-full object-cover absolute z-10  ui_image"
+                            className="absolute z-10 object-cover w-full h-full ui_image"
                         />
                     </div>
                 ))}

@@ -41,10 +41,10 @@ const Navbar = () => {
     setToggle(!toggle);
   });
   return (
-    <nav className="w-full bg-darkGray fixed z-50 top-0 left-0">
+    <nav className="fixed top-0 left-0 z-50 w-full bg-darkGray">
       <div className="container flex justify-between py-6 text-white">
         <div>
-          <h1 className="container font-bold text-2xl">Aya Killiah</h1>
+          <h1 className="container text-2xl font-bold">Aya Killiah</h1>
         </div>
         <button onClick={toggleNavbar} data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
             <span class="sr-only">Open main menu</span>

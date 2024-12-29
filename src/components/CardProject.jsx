@@ -8,18 +8,18 @@ const CardProject = ({
   demoLink,
 }) => {
   return (
-    <div className="relative z-10 group flex flex-col items-center ">
+    <div className="relative z-10 flex flex-col items-center group ">
       {/* Card Content */}
-      <div className="projectCard bg-bgColor flex items-center cursor-default flex-col gap-6 border">
+      <div className="flex flex-col items-center gap-6 border cursor-default projectCard bg-bgColor">
         <img
-          src={`/images/${image}`}
+          src={`images/${image}`}
           alt="project cover"
           className="w-full h-[188px]"
         />
-        <h3 className="text-lightBlack text-center font-bold text-2xl lg:text-2xl md:text-xl">
+        <h3 className="text-2xl font-bold text-center text-lightBlack lg:text-2xl md:text-xl">
           {title}
         </h3>
-        <p className="text-sm md:text-base  leading-6 px-5 mb-10 md:mb-8 sm:mb-5 line-clamp-5 md:line-clamp-4">{description}</p>
+        <p className="px-5 mb-10 text-sm leading-6 md:text-base md:mb-8 sm:mb-5 line-clamp-5 md:line-clamp-4">{description}</p>
       </div>
 
       {/* Hover Links - Slide Up on Hover */}

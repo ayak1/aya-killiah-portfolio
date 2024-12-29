@@ -3,12 +3,12 @@ import React from "react";
 const About = () => {
   return (
     <div className="w-full " id="About">
-      <h2 className="font-bold text-4xl text-lightBlack pt-10 text-center">
+      <h2 className="pt-10 text-4xl font-bold text-center text-lightBlack">
         About Me
       </h2>
-      <div className="container grid grid-cols-1 md:grid-cols-2 py-10 gap-10 place-items-center">
-        <div className="content flex flex-col gap-3 text-xl font-medium">
-        <p className="text-primaryGray leading-7">
+      <div className="container grid grid-cols-1 gap-10 py-10 md:grid-cols-2 place-items-center">
+        <div className="flex flex-col gap-3 text-xl font-medium content">
+        <p className="leading-7 text-primaryGray">
           I'm Aya Killiah, a passionate web developer with a degree in Computer
           Engineering and Automatic Control. Since graduating, I’ve worked on
           various projects and gained hands-on experience in front-end and
@@ -17,7 +17,7 @@ const About = () => {
           Laravel. My experience includes working with design tools like Figma
           to ensure smooth, visually appealing layouts.
         </p>
-        <p className="text-primaryGray leading-7">
+        <p className="leading-7 text-primaryGray">
           I'm always eager to learn new technologies and improve my skills, and
           I’m ready to bring fresh ideas and dedication to a professional team.
           Whether it's building dynamic applications or collaborating with a
@@ -25,8 +25,8 @@ const About = () => {
           contribute meaningfully to web development projects.
         </p>
         </div>
-        <div className="img w-full h-full">
-          <img src="/images/img2.jpg" alt="" className="object-cover w-[100%] h-[100%]" />
+        <div className="w-full h-full img">
+          <img src="images/img2.jpg" alt="" className="object-cover w-[100%] h-[100%]" />
         </div>
       </div>
     </div>
