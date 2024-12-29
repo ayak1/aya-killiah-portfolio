@@ -12,6 +12,30 @@ const Projects = () => {
       demoLink: "https://asila-tourism.com",
     },
     {
+      image: "ican_landing_cover.png",
+      title: "ICAN Landing Page",
+      description:
+        "A professional landing page designed for a technical solutions company, focusing on cross-browser compatibility and responsive design. Created using React.js with a clean, corporate look.",
+      repoLink: "https://github.com/ayak1/ICAN_landing_page",
+      demoLink: "https://ayak1.github.io/ICAN_landing_page/",
+    },
+    {
+      image: "focalX-records-web-app-cover.png",
+      title: "FocalX Records Web App",
+      description:
+        "An application for managing records, built to emphasize functionality and ease of use. Developed using Vue.js and Laravel to handle backend data management.",
+      repoLink: "https://github.com/ayak1/focalX-records-web-app",
+      demoLink: "https://ayak1.github.io/focalX-records-web-app/",
+    },
+    {
+      image: "alaa_darwish_portfolio_cover.png",
+      title: "Portfolio",
+      description:
+        "A personalized portfolio for Mr.Alaa darwish website for a client, designed using Vue.js and Vite. Highlights clean, modern design and an intuitive layout showcasing the client’s work.",
+      repoLink: "https://github.com/ayak1/focalX-portfolio_alaa_darwish",
+      demoLink: "https://ayak1.github.io/focalX-portfolio_alaa_darwish/",
+    },
+    {
       image: "3d-space-cover.png",
       title: "3D Space Hero",
       description:
@@ -36,14 +60,6 @@ const Projects = () => {
       demoLink: "https://ayak1.github.io/Car-Hero/",
     },
     {
-      image: "ican_landing_cover.png",
-      title: "ICAN Landing Page",
-      description:
-        "A professional landing page designed for a technical solutions company, focusing on cross-browser compatibility and responsive design. Created using React.js with a clean, corporate look.",
-      repoLink: "https://github.com/ayak1/ICAN_landing_page",
-      demoLink: "https://ayak1.github.io/ICAN_landing_page/",
-    },
-    {
       image: "meals_menu.png",
       title: "Meals Menu",
       description:
@@ -51,14 +67,7 @@ const Projects = () => {
       repoLink: "https://github.com/ayak1/meals-menu",
       demoLink: "https://ayak1.github.io/meals-menu/",
     },
-    {
-      image: "focalX-records-web-app-cover.png",
-      title: "FocalX Records Web App",
-      description:
-        "An application for managing records, built to emphasize functionality and ease of use. Developed using Vue.js and Laravel to handle backend data management.",
-      repoLink: "https://github.com/ayak1/focalX-records-web-app",
-      demoLink: "https://ayak1.github.io/focalX-records-web-app/",
-    },
+    
     {
       image: "simple_calculator.png",
       title: "Simple Calculator",
@@ -75,14 +84,7 @@ const Projects = () => {
       repoLink: "https://github.com/ayak1/donate-take-BloodApi-laravel",
       demoLink: "https://donate-take-blood-api.com",
     },
-    {
-      image: "alaa_darwish_portfolio_cover.png",
-      title: "Portfolio",
-      description:
-        "A personalized portfolio for Mr.Alaa darwish website for a client, designed using Vue.js and Vite. Highlights clean, modern design and an intuitive layout showcasing the client’s work.",
-      repoLink: "https://github.com/ayak1/focalX-portfolio_alaa_darwish",
-      demoLink: "https://ayak1.github.io/focalX-portfolio_alaa_darwish/",
-    },
+    
   ];
 
   return (
