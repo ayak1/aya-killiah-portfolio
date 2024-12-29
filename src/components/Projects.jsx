@@ -17,7 +17,7 @@ const Projects = () => {
       description:
         "An immersive, space-themed 3D application built with React.js, Vite, and Tailwind CSS. It provides interactive animations and a visually captivating experience.",
       repoLink: "https://github.com/ayak1/3D-Space-Hero",
-      demoLink: "https://ayak1.github.io/3D-Space-Hero",
+      demoLink: "https://ayak1.github.io/3D-Space-Hero/",
     },
     {
       image: "cookies-project-cover.png",
@@ -36,7 +36,7 @@ const Projects = () => {
       demoLink: "https://ayak1.github.io/Car-Hero/",
     },
     {
-      image: "ican_landing_page.png",
+      image: "ican_landing_cover.png",
       title: "ICAN Landing Page",
       description:
         "A professional landing page designed for a technical solutions company, focusing on cross-browser compatibility and responsive design. Created using React.js with a clean, corporate look.",
