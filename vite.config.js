@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/3D-Space-Hero",
+  base: "/aya-killiah-portfolio",
   plugins: [react()],
 })
  
