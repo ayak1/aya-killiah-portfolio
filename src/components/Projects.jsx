@@ -59,31 +59,31 @@ const Projects = () => {
       repoLink: "https://github.com/ayak1/Car-Hero",
       demoLink: "https://ayak1.github.io/Car-Hero/",
     },
-    {
-      image: "meals_menu.png",
-      title: "Meals Menu",
-      description:
-        "A user-friendly meal menu app built with Vue.js and Vite, offering smooth navigation and intuitive meal selection with a clear, structured layout.",
-      repoLink: "https://github.com/ayak1/meals-menu",
-      demoLink: "https://ayak1.github.io/meals-menu/",
-    },
+    // {
+    //   image: "meals_menu.png",
+    //   title: "Meals Menu",
+    //   description:
+    //     "A user-friendly meal menu app built with Vue.js and Vite, offering smooth navigation and intuitive meal selection with a clear, structured layout.",
+    //   repoLink: "https://github.com/ayak1/meals-menu",
+    //   demoLink: "https://ayak1.github.io/meals-menu/",
+    // },
     
-    {
-      image: "simple_calculator.png",
-      title: "Simple Calculator",
-      description:
-        "A minimalist calculator created with Vue.js and Vite, focusing on basic functionality and clean design, demonstrating fundamental JavaScript operations and UI components.",
-      repoLink: "https://github.com/ayak1/vite-vueJS_simple-calculator",
-      demoLink: "https://simple-calculator-demo.com",
-    },
-    {
-      image: "donate_take_blood_api.png",
-      title: "Donate-Take Blood API",
-      description:
-        "An API developed using Laravel to facilitate blood donations, designed with RESTful principles and efficient data handling in mind.",
-      repoLink: "https://github.com/ayak1/donate-take-BloodApi-laravel",
-      demoLink: "https://donate-take-blood-api.com",
-    },
+    // {
+    //   image: "simple_calculator.png",
+    //   title: "Simple Calculator",
+    //   description:
+    //     "A minimalist calculator created with Vue.js and Vite, focusing on basic functionality and clean design, demonstrating fundamental JavaScript operations and UI components.",
+    //   repoLink: "https://github.com/ayak1/vite-vueJS_simple-calculator",
+    //   demoLink: "https://simple-calculator-demo.com",
+    // },
+    // {
+    //   image: "donate_take_blood_api.png",
+    //   title: "Donate-Take Blood API",
+    //   description:
+    //     "An API developed using Laravel to facilitate blood donations, designed with RESTful principles and efficient data handling in mind.",
+    //   repoLink: "https://github.com/ayak1/donate-take-BloodApi-laravel",
+    //   demoLink: "https://donate-take-blood-api.com",
+    // },
     
   ];
 
