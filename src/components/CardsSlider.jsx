@@ -10,6 +10,14 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay'
 export default () => {
+  const Certificates =[
+    {url:"images/coursera HTML and CSS in depth.png",alt:""},
+    {url:"images/UI & UX.png",alt:""},
+    {url:"images/Coursera programming with js.png",alt:""},
+    {url:"images/focalX_internship.png",alt:""},
+    {url:"images/coursera version control.png",alt:""},
+    {url:"images/take_the_lead.png",alt:""}
+  ]
   return (
     <Swiper className='w-[100%]'
       // install Swiper modules
@@ -40,30 +48,12 @@ export default () => {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
-      <SwiperSlide >
-        <img src="" alt="" className='w-[30%-48px/3] md:w-[50%-12px] h-[318px] mb-10 bg-slate-800'/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="" alt="" className='w-[30%-48px/3] md:w-[50%-12px] h-[318px] mb-10 bg-slate-800'/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="" alt="" className='w-[30%-48px/3] md:w-[50%-12px] h-[318px] mb-10 bg-slate-800'/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="" alt="" className='w-[30%-48px/3] md:w-[50%-12px] h-[318px] mb-10 bg-slate-800'/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="" alt="" className='w-[30%-48px/3] md:w-[50%-12px] h-[318px] mb-10 bg-slate-800'/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="" alt="" className='w-[30%-48px/3] md:w-[50%-12px] h-[318px] mb-10 bg-slate-800'/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="" alt="" className='w-[30%-48px/3] md:w-[50%-12px] h-[318px] mb-10 bg-slate-800'/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="" alt="" className='w-[30%-48px/3] md:w-[50%-12px] h-[318px] mb-10 bg-slate-800'/>
-      </SwiperSlide>
+      {Certificates.map((certifecate, index) => (
+             <SwiperSlide key={index}>
+                <img src={certifecate.url} alt={certifecate.alt} className='w-[30%-48px/3] md:w-[50%-12px] h-[318px] mb-10 bg-slate-800'/>
+              </SwiperSlide>
+        ))}
+      
     </Swiper>
   );
 };

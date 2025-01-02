@@ -18,7 +18,7 @@ const UI_UX = () => {
     ];
 
     return (
-        <div className="w-full px-4 py-10 -mt-1 from_lightPink_to_darkPink" id='UI&UX'>
+        <div className="w-full px-4 py-10 -mt-1 from_lightPink_to_darkPink" id='UI_UX'>
             <div className='container'>
             <h2 className="mb-10 text-4xl font-bold text-center text-white">UI & UX</h2>
             <div className="flex flex-col items-start gap-8">

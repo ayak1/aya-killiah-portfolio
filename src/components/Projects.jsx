@@ -36,6 +36,14 @@ const Projects = () => {
       demoLink: "https://ayak1.github.io/focalX-portfolio_alaa_darwish/",
     },
     {
+      image: "uae_id_card_extractor.png",
+      title: "UAE ID Card Extractor",
+      description:
+        "The UAE ID Card Extractor is a React component that uses Optical Character Recognition (OCR) to extract and display information from UAE ID cards. This component leverages Tesseract.js to perform OCR on uploaded images, processes the extracted text to identify and clean relevant information, and presents it in an editable form",
+      repoLink: "https://github.com/ayak1/aya_killiah_assignment",
+      demoLink: "https://ayak1.github.io/aya_killiah_assignment/",
+    },
+    {
       image: "3d-space-cover.png",
       title: "3D Space Hero",
       description:
@@ -59,6 +67,7 @@ const Projects = () => {
       repoLink: "https://github.com/ayak1/Car-Hero",
       demoLink: "https://ayak1.github.io/Car-Hero/",
     },
+    
     // {
     //   image: "meals_menu.png",
     //   title: "Meals Menu",
