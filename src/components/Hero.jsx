@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4">
             <h1 className="text-4xl font-bold text-white md:text-5xl">
-              Hi, I’m Aya Killiah. A Junior Web Developer passionate about building clean, interactive websites.
+              Hi, I’m Aya Killiah. A Web Developer passionate about building clean, interactive websites.
             </h1>
             <p className="text-lg font-medium text-lightGray md:text-2xl">
               I focus on front-end and back-end development to create seamless user experiences.
