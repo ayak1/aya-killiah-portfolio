@@ -4,7 +4,7 @@ import React from 'react';
 const UI_UX = () => {
     const projects = [
         {
-            image: 'img1.jpg',
+            image: 'asila-cover.png',
             linkToFigma: '',
         },
         {
