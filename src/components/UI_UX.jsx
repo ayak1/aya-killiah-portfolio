@@ -24,7 +24,7 @@ const UI_UX = () => {
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className={`relative z-10 w-[70%] h-64 shadow-lg rounded group  ui_image ${
+                        className={`relative z-10 w-[70%] h-64 shadow-lg rounded group  ui_image cursor-pointer ${
                             index % 2 === 0 ? 'self-start' : 'self-end'
                         }`}
                     >
