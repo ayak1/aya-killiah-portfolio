@@ -24,20 +24,25 @@ const CardProject = ({
 
       {/* Hover Links - Slide Up on Hover */}
       <div className="rounded-b-xl w-[80%] overflow-hidden max-h-0 group-hover:max-h-24 transition-all duration-300 ease-in-out flex items-center">
-        <a
+       if ({repoLink!=""}) { <a
         target="_blank"
           href={repoLink}
           className=" cursor-pointer bg-lightPink text-white py-4 w-[50%] text-center rounded-bl-3xl text-lg font-semibold leading-6"
         >
           Repo
         </a>
-        <a
+        
+       }
+       if ({demoLink!=""}) {
+         <a
          target="_blank"
           href={demoLink}
           className=" cursor-pointer bg-darkGray text-lightPink py-4 w-[50%] text-center rounded-br-3xl text-lg font-semibold leading-6"
         >
           Demo
         </a>
+        
+       }
       </div>
     </div>
   );

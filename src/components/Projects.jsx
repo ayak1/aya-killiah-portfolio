@@ -8,8 +8,8 @@ const Projects = () => {
       title: "ASILA Tourism Website",
       description:
         "A professional tourism website with a clean and responsive design, built to showcase various travel destinations and services.",
-      repoLink: "https://github.com/ayak1/ASILA-Tourism",
-      demoLink: "https://asila-tourism.com",
+      repoLink: "https://github.com/ayak1/ASILA",
+      demoLink: "https://ayak1.github.io/ASILA",
     },
     {
       image: "ican_landing_cover.png",
@@ -30,8 +30,7 @@ const Projects = () => {
     {
       image: "alaa_darwish_portfolio_cover.png",
       title: "Portfolio",
-      description:
-        "A personalized portfolio for Mr.Alaa darwish website for a client, designed using Vue.js and Vite. Highlights clean, modern design and an intuitive layout showcasing the client’s work.",
+      description:"A personalized portfolio website for Mr. Alaa Darwish, developed to match the design exactly with great attention to detail.",
       repoLink: "https://github.com/ayak1/focalX-portfolio_alaa_darwish",
       demoLink: "https://ayak1.github.io/focalX-portfolio_alaa_darwish/",
     },

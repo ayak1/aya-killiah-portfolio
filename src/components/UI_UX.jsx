@@ -4,17 +4,16 @@ import React from 'react';
 const UI_UX = () => {
     const projects = [
         {
-            image: 'asila-cover.png',
-            linkToFigma: '',
+            url: 'asila-ui-ux-cover.png',
+            alt:'cover image for asila toursim website design on figma',
+            linkToFigma: 'https://www.figma.com/design/qu876U1Cb86mt0AbUbKHmx/Tours-Website?node-id=0-1&m=dev&t=I7Qq2mENjYBqlCSI-1',
         },
         {
-            image: 'img2.jpg',
-            linkToFigma: '',
+            url: 'Frame 8.png',
+            alt:"cover image for my portfolio website design on figma",
+            linkToFigma: 'https://www.figma.com/design/1sEi9TE6ROmI5hqz2dfin6/Untitled?node-id=0-1&t=3oKN8jaaxOAshgLv-1',
         },
-        {
-            image: 'img1.jpg',
-            linkToFigma: '',
-        },
+        
     ];
 
     return (
@@ -30,7 +29,7 @@ const UI_UX = () => {
                         }`}
                     >
                         <img
-                            src={`images/${project.image}`}
+                            src={`images/${project.url}`}
                             alt="project cover"
                             className="absolute z-10 object-cover w-full h-full bg-white ui_image"
                         />
@@ -57,3 +56,6 @@ const UI_UX = () => {
 };
 
 export default UI_UX;
+
+
+                           
